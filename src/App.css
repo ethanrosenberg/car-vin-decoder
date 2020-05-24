@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.form-inline {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+* {
+  -webkit-border-radius: 1px !important;
+     -moz-border-radius: 1px !important;
+          border-radius: 1px !important;
+}
+#logo {
+color: #666;
+width:100%;
+}
+#logo h1 {
+    font-size: 60px;
+    text-shadow: 1px 2px 3px #999;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+#logo p{
+  padding-bottom: 20px;
+}
+
+#form-buscar {
+    padding-top: 20px;
+}
+
+#form-buscar >.form-group >.input-group > .form-control {
+    height: 60px;
+          width: 450px
+}
+#form-buscar >.form-group >.input-group > .input-group-btn > .btn{
+        height: 60px;
+        font-size: 25px;
+        font-weight: 700;
+        padding-right:40px;
+
+
+}
+#form-buscar >.form-group >.input-group > .input-group-btn > .btn .glyphicon{
+ margin-right:20px;
+}
+
+
+#form-buscar >.form-group >.input-group > .form-control {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+#form-buscar >.form-group >.input-group > .form-control:focus {
+  border-color: #33A444;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+}
+
+
+.table {
+  font-size: 15px;
+}
